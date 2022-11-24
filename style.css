@@ -10,8 +10,8 @@ html {
 }
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0vw;
+    padding: 0vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -26,16 +26,16 @@ html {
 .menu{
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 2vw;
     align-items: center;
     background-color: #329df2;  
-    padding-left: 5vh;
-    padding-right: 20px;
+    padding-left: 1vw;
+    padding-right: 6vh;
 }
 
 .menu__logo{
     opacity: 0.8;
-    width: 280px;
+    width: 15vw;
 }
 
 .menu__item{
@@ -59,15 +59,19 @@ html {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h1{
+    text-align: center;
+    padding-top: 1vw;
+}
 
 .grid{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax( 300px, 1fr ) );
+    grid-template-columns: repeat( auto-fit, minmax( 20vw, 1fr ) );
 	grid-gap: 1em;
 }
 
@@ -76,7 +80,7 @@ html {
     background: white;
 	border: solid black 2px;
     border-radius: 6px;
-    padding: 16px;
+    padding: 1vw;
 }
 
 
@@ -93,8 +97,8 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 16px;
-    gap: 16px;
+    padding: 1vw;
+    gap: 2vw;
 
     color: white;
 
@@ -105,7 +109,7 @@ html {
 
 .icons{
     display: flex;
-    gap: 16px;
+    gap: 2vw;
 }
 
 
@@ -113,8 +117,8 @@ html {
     .menu{
         display: flex;
         flex-direction: column;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
     }
 
 
