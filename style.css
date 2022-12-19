@@ -3,13 +3,13 @@ html {
  
 }
 
-*,
-*:before,
-*:after {
+body,
+body:before,
+body:after {
   box-sizing: inherit;
 }
 
-*{
+body{
     margin: 0vw;
     padding: 0vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -40,6 +40,13 @@ html {
 
 .menu__item{
     list-style: none;
+    animation: fadeInRight;
+   animation-duration: 2s;
+}
+.menu__itemlogo{
+    list-style: none;
+    animation:fadeInLeft;
+    animation-duration: 2s;
 }
 
 .menu__item--right{
@@ -48,6 +55,13 @@ html {
 
 .menu__item--left{
     margin-left: auto;
+}
+
+.menu__item:hover{
+   font-size: large;
+   gap: 3em;
+   text-decoration: underline;
+   
 }
 
 
@@ -89,6 +103,14 @@ h1{
     border-radius: 10px;
 }
 
+.grid__item:hover{
+    box-shadow: 0 0 50px rgba(0, 0, 0, 100);
+   animation: pulse;
+   animation-duration: 3s;
+}
+
+
+
 
 .footer{
     background-color: #329df2;  
@@ -109,9 +131,36 @@ h1{
 
 .icons{
     display: flex;
-    gap: 2vw;
+    gap: 3vw;
+}
+h2{
+    font-size: 15px;
 }
 
+.icon1:hover{
+    animation: forwards;
+    display: inline-block;
+    animation:tada;
+    animation-duration: 2s;
+ 
+
+}
+
+.icon2:hover{
+    animation: infinite;
+    animation:tada;
+    animation-duration: 2s;
+    margin: 0 0.5rem;
+
+}
+
+.icon3:hover{
+    animation: infinite;
+    animation:tada;
+    animation-duration: 2s;
+    margin: 0 0.5rem;
+
+}
 
 @media only screen and (max-width: 800px) {
     .menu{
@@ -126,3 +175,6 @@ h1{
         margin: auto;
     }
 }
+
+
+
